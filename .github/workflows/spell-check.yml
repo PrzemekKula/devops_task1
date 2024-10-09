@@ -17,10 +17,10 @@ jobs:
                   npm Install @cspell/dict-software-terms
                   npm Install @cspell/dict-goLang
               - name: Run cspell
-                uses: strictsidesoftware/cspell-action@v2
+                uses: streetsidesoftware/cspell-action@v2
                 with:
                   files: "*.tex"
                   check_dot_files: false
                   strict: true
-                  incremental_file_only: false
+                  incremental_files_only: false
 
