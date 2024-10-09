@@ -19,7 +19,7 @@ jobs:
               - name: Run cspell
                 uses: strictsidesoftware/cspell-action@v2
                 with:
-                  files: *".tex"
+                  files: "*.tex"
                   check_dot_files: false
                   strict: true
                   incremental_file_only: false
